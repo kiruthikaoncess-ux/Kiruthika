@@ -1,0 +1,177 @@
+/* General Reset */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: Arial, sans-serif;
+
+}
+
+/* Body */
+
+body {
+
+  line-height: 1.6;
+
+  background: #fff;
+
+  color: #333;
+
+  transition: background 0.3s, color 0.3s;
+
+}
+
+/* Header */
+
+header {
+
+  text-align: center;
+
+  padding: 2rem;
+
+  background: #007acc;
+
+  color: #fff;
+
+}
+
+header p {
+
+  font-size: 1.2rem;
+
+}
+
+/* Navigation */
+
+nav {
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 1.5rem;
+
+  padding: 1rem;
+
+  background: #f4f4f4;
+
+}
+
+nav a {
+
+  text-decoration: none;
+
+  color: #333;
+
+  font-weight: bold;
+
+}
+
+nav button {
+
+  border: none;
+
+  background: #007acc;
+
+  color: #fff;
+
+  padding: 0.5rem 1rem;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+}
+
+/* Sections */
+
+section {
+
+  padding: 2rem;
+
+  text-align: center;
+
+}
+
+h2 {
+
+  margin-bottom: 1rem;
+
+  color: #007acc;
+
+}
+
+ul {
+
+  list-style-type: none;
+
+}
+
+ul li {
+
+  margin: 0.5rem 0;
+
+}
+
+/* Projects */
+
+.project {
+
+  margin: 1rem 0;
+
+  padding: 1rem;
+
+  border: 1px solid #ddd;
+
+  border-radius: 8px;
+
+}
+
+/* Footer */
+
+footer {
+
+  text-align: center;
+
+  padding: 1rem;
+
+  background: #007acc;
+
+  color: #fff;
+
+}
+
+/* Dark Mode */
+
+.dark-mode {
+
+  background: #121212;
+
+  color: #eaeaea;
+
+}
+
+.dark-mode nav {
+
+  background: #1f1f1f;
+
+}
+
+.dark-mode nav a {
+
+  color: #eaeaea;
+
+}
+
+.dark-mode nav button {
+
+  background: #eaeaea;
+
+  color: #121212;
+
+}
